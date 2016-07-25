@@ -22,6 +22,16 @@ $(document).ready(function(){
 			});
 		},
     });
+	$('.bxslider-cli').bxSlider({
+			  auto: true,
+			  autoControls: true,
+			  minSlides: 1,
+			  maxSlides: 6,
+			  slideWidth: 230,
+			  moveSlides: 1,
+			  slideMargin: 20,
+			  pager:false,
+			});
 	$(".toggle").click(function(){
 		$(".top-line .nav-bar").slideToggle();
 	});
